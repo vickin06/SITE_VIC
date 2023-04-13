@@ -1,5 +1,12 @@
-. cabeçalho{
-background-color: rgb(201, 87, 150);
+*{
+    margin:0 ;
+    padding:0 ;
+}
+.cabeçalho{
+display: flex;
+justify-content:space-around;
+background-color: rgb(255, 0, 140);
+align-items: center;
 }
 .imagem_alura{
 width: 25%;
